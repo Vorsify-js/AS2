@@ -6,12 +6,19 @@ body {
 }
 
 .bg-image1 {
-    background-image: url("../img/1db315228240eb2ed1a3432ab564f4f6.png");
-    background-attachment:fixed;
+    background-image: url("../img/banner-bg.jpg");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
 }
+
+.hover:hover {
+    background-color: rgb(219, 59, 59);
+    background-size: cover;
+    
+}
+
+
 
 .bg-shadow {
     background-color: rgba(0, 0, 0, .5);
