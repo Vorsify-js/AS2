@@ -1,0 +1,18 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424242;
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+.bg-image1 {
+    background-image: url("../img/1db315228240eb2ed1a3432ab564f4f6.png");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, .5);
+}
