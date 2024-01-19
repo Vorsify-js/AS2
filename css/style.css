@@ -12,6 +12,13 @@ body {
     background-size: cover;
 }
 
+.bg-image2 {
+    background-image: url("../img/services-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .hover:hover {
     background-color: rgb(219, 59, 59);
     background-size: cover;
@@ -20,6 +27,15 @@ body {
 
 
 
-.bg-shadow {
-    background-color: rgba(0, 0, 0, .4);
+.bg-shadow-dark {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.bg-shadow-danger {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+.bg-shadow-info {
+    background-color: rgba(0, 174, 255, 0.4);
 }
