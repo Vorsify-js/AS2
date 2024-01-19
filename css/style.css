@@ -1,9 +1,4 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #424242;
-    margin: 0;
-    background-color: #F5F5F5;
-}
+
 
 .bg-image1 {
     background-image: url("../img/banner-bg.jpg");
@@ -28,14 +23,17 @@ body {
 
 
 .bg-shadow-dark {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
 }
 
 
 .bg-shadow-danger {
-    background-color: rgba(255, 0, 0, 0.4);
+    background-color: rgba(255, 0, 0, 0.5);
+    background-position: center;
 }
 
 .bg-shadow-info {
-    background-color: rgba(0, 174, 255, 0.4);
+    background-color: rgba(0, 174, 255, 0.5);
+    background-position: center;
 }
