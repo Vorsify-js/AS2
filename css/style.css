@@ -1,5 +1,3 @@
-
-
 .bg-image1 {
     background-image: url("../img/banner-bg.jpg");
     background-repeat: no-repeat;
@@ -17,9 +15,8 @@
 .hover:hover {
     background-color: rgb(219, 59, 59);
     background-size: cover;
-    
-}
 
+}
 
 
 .bg-shadow-dark {
