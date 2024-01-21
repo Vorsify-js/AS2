@@ -12,8 +12,23 @@
     background-size: cover;
 }
 
+/* Учитель это для дождя не для других действий */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+/* Конец дождя */
 .hover:hover {
-    background-color: rgb(219, 59, 59);
+    background-color: rgb(236, 100, 100);
     color: white;
     background-size: cover;
 
@@ -21,17 +36,19 @@
 
 
 .bg-shadow-dark {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(53, 49, 49, 0.650);
     background-position: center;
 }
 
 
 .bg-shadow-danger {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(238, 72, 72, 0.650);
     background-position: center;
 }
 
 .bg-shadow-info {
-    background-color: rgba(0, 174, 255, 0.5);
+    background-color: rgba(83, 174, 216, 0.650);
     background-position: center;
 }
+
+
